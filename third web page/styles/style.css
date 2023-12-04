@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ body {
+        width: 100vw; 
+        height: 100vh; 
+        /* background-color: tomato;  */
+        font-family: 'Poppins', sans-serif;
+        background-image: url("https://img.freepik.com/free-photo/restaurant-interior_1127-3394.jpg?size=626&ext=jpg&ga=GA1.1.1157793943.1700280670&semt=ais");
+        background-repeat: no-repeat;
+        background-size:cover ;
+
+    
+       
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-top: 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight:600;
+    font-size: 45px;
+    color: white;
+}
+.list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500;
+    font-size: 25px;
+    list-style:none;
+}
+a{
+    color: rgb(255, 179, 0);
+    text-decoration: none;
+
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 90px;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(235, 235, 235);
+    background-color:rgb(245, 88, 60) ;
+    border-color: rgb(245, 88, 60) ;
+    cursor: pointer;
+
+}
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center; 
+    gap: 20px;
+    color: rgb(255, 179, 0);
+} 
+.main .h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Times New Roman', Times, serif; 
+    font-weight: 600; 
+    font-size: 30px;
+    margin-top: 90px;
+    flex-direction: column;
+}
+.readourmenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 190px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color:rgb(245, 88, 60);
+    color: rgb(235, 235, 235);
+    border-color: rgb(245, 88, 60);
+    cursor: pointer;
+
+}
+.list :hover{
+    font-size: 32px;
+}
+
+
+

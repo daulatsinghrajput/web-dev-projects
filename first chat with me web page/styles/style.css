@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background-color: rgb(162, 91, 228);
+    padding: 4px 10px;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 600;
+    width: fit-content;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+nav .logo{
+    height:50px;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 600;
+}
+nav ul li:hover{
+    text-decoration: underline;
+    font-size:large;
+}
+.search{
+    display: flex;
+    gap: 30px;
+}
+input{
+    padding: 4px 10px;
+}
+.section{
+    display: flex;
+    align-items: center;
+}
+.left-div{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    margin-left: 100px;
+}
+.left-div h1 span{
+    color:#7676c2;
+    font-weight: 900;
+    font-size: 2.5rem;
+   
+}
+.left-div p{
+    font-weight: 500;
+   
+}
+.left-div p span{
+    font-weight: 700;
+    font-size: 25px;
+    color: #7676c2;
+}
+.right-div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    width: 40%;
+    margin-right: 20px;
+}
+.hero-button{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 80px;
+}
+.right-div img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    /* margin-right: 10px; */
+}
+footer{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    justify-content:space-between;
+    
+}
+footer p{
+    font-weight: 600;
+    margin-left: 80px;
+    
+}
+footer ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-right: 100px;
+}
+footer ul li a i {
+    color: black; /* Default color */
+    transition: color 0.3s ease;
+}
+
+footer ul li a i:hover {
+    color: #0e0ee4; /* Hover color */
+    font-size: large;
+}
+
+@media (max-width: 768px) {
+    .section {
+        flex-direction: column;
+    }
+
+    .right-div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .right-div img {
+        width: 80%;
+        height: auto;
+    }
+}
