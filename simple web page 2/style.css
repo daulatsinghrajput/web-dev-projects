@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(assets/pexels-reynaldo-brigworkz-brigantty-771881.jpg);
+    background-size: cover;
+
+    & span{
+        text-transform: uppercase;
+    }
+}
+
+header .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: space-around;
+    gap: 20rem;
+
+    & .btn {
+        width: 10rem;
+        height: auto;
+        border: 1px solid black;
+        font-size: 1.2rem;
+        text-transform: capitalize;
+        padding: 0.5rem 1rem;
+        text-align: center;
+        background-color: rgb(91, 67, 170);
+        border-radius: 4%;
+        
+    
+        & a {
+            text-decoration: none;
+        }
+    }
+}
+
+.container {
+    padding: 0 4rem 4rem 4rem;
+}
+
+.grid .header-content {
+    display: flex;
+    gap: 2rem;
+    font-size: 4rem;
+    text-align: center;
+    align-items: center; 
+
+
+    & .navbar ul {
+        display: flex;
+        gap: 1rem;
+        text-transform: capitalize;
+        list-style-type: none;
+        font-size: 1.1rem;
+    }
+}
+
+.container .content-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: center;
+    margin-top: 4rem;
+    & .heading{
+        font-size: 1.7rem;
+        text-transform: capitalize;
+        width: 60%;
+    }
+        & .para{
+            font-size: 1rem;
+            text-transform: capitalize;
+        }
+    
+    & .btn {
+        width: 15rem;
+        height: auto;
+        border: 1px solid black;
+        font-size: 1.2rem;
+        text-transform: capitalize;
+        padding: 0.5rem 1rem;
+        text-align: center;
+        background-color: rgb(91, 67, 170);
+        margin-top: 2.5rem;
+        font-weight: 300;
+        
+    
+        & a {
+            text-decoration: none;
+        }
+    }
+}
